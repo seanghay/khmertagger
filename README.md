@@ -24,7 +24,7 @@ restore elements like spaces, punctuation, numbers, and symbols.
 
 ### Proposed method
 
-In this work, we employ word boundary detection using khmercut, a tool designed for
+In this work, we employ word boundary detection using [khmercut](https://github.com/seanghay/khmercut), a tool designed for
 segmentation of Khmer text into word units to make it ready to feed into the model.
 
 Our model architecture is based on XLM-ROBERTA, a multilingual transformer model that serves

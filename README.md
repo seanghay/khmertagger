@@ -53,6 +53,45 @@ contexts, contributing to the robustness of the model in handling punctuation an
 The training process yielded an accuracy of 97.2%, demonstrating the effectiveness of the
 architecture in accurately predicting both punctuation and numeric entities in Khmer text.
 
+### Dataset Format
+
+The example format can be found in the ./data folder
+
+```
+ឌុប	0	0
+នាង	0	0
+ខារ៉ាអូខេ	0	0
+ឡាន	0	0
+បុក	0	0
+ពីក្រោយ	0	0
+ស្លាប់	0	0
+ប្រុស	0	0
+ស្នេហ៍	0	0
+របួស	0	0
+ធ្ងន់	។	0
+គ្រោះថ្នាក់	0	0
+ចរាចរណ៍	0	0
+មួយ	0	0
+បាន	0	0
+កើតឡើង	0	0
+កាលពី	0	0
+វេលា	0	0
+ម៉ោង	0	0
+ដប់	0	NUMBER_B
+មួយ	0	NUMBER_I
+និង	0	0
+ម្ភៃ	0	NUMBER_B
+នាទី	0	0
+យប់	0	0
+ថ្ងៃទី	0	0
+ពីរ	SPACE	NUMBER_B
+ឧសភា	SPACE	0
+ពីរ	0	NUMBER_B
+ពាន់	0	NUMBER_I
+ដប់	0	NUMBER_I
+ពីរ	SPACE	NUMBER_I
+```
+
 
 ```bibtex
 @misc{khmertagger2025,
